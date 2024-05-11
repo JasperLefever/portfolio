@@ -1,8 +1,15 @@
-function App() {
+import Navbar from "./components/navbar/Navbar.tsx";
+import Loading from "./components/state/Loading.tsx";
 
-    return (
-        <p className="text-xl text-cyan-600">Welcome</p>
-    )
+function App() {
+  return (
+    <>
+      <Navbar />
+      <div className="px-2">
+        <Loading />
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
