@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    font-family: "Lexend", sans-serif;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    background-color: #221F1F;
+    color: white;
 }
+
+.accent-color {
+    color: #496ddb;
+}
+
 
 @keyframes spin {
     from {

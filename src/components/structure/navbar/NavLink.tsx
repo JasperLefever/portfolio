@@ -9,10 +9,10 @@ interface NavLinkProps {
 
 function NavLink({ to, children, icon }: NavLinkProps) {
   return (
-    <div className="flex gap-1 border-2 rounded-md px-3 py-1">
+    <div className="flex">
       {icon}
       <RouterLink
-        className={({ isActive }) => (isActive ? "text-blue-400" : undefined)}
+        className={({ isActive }) => (isActive ? "accent-color" : undefined)}
         to={to}
       >
         {children}
