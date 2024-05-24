@@ -59,7 +59,10 @@ function Home() {
           <h1 className="text-lg font-bold">Hya, I'm Jasper</h1>
           <p className="text-5xl font-extrabold accent-color">Full stack</p>
           <p className="text-5xl font-extrabold accent-color ">Developer</p>
-          <a className="underline underline-offset-4 font-bold text-sm">
+          <a
+            className="underline underline-offset-4 font-bold text-sm"
+            href="#connect-with-me"
+          >
             Connect with me
           </a>
         </div>
@@ -95,6 +98,13 @@ function Home() {
             "And I'm always eager to learn more! At this moment I'm diving into the world of Next.js"
           }
         ></SectionText>
+        <div className={"text-lg"}>
+          <p>I currently prefer to work with:</p>
+          <ul className={"list-disc list-inside"}>
+            <li>Frontend: React</li>
+            <li>Backend: .NET 8 or TypeScript node.js</li>
+          </ul>
+        </div>
       </Section>
       <Section title={"languages"}>
         <ul className={"text-lg"}>
@@ -106,9 +116,11 @@ function Home() {
       <Section title={"projects and realizations"}>
         <SectionText text={"Hello, I'm Jasper"}></SectionText>
       </Section>
-      <Section title={"connect with me"}>
-        <ConnectWithMe />
-      </Section>
+      <a id={"connect-with-me"}>
+        <Section title={"connect with me"}>
+          <ConnectWithMe />
+        </Section>
+      </a>
     </div>
   );
 }
