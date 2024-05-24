@@ -1,4 +1,4 @@
-import linkedin from "../../assets/linkedin.svg";
+import linkedin from "../../assets/socials/linkedin.svg";
 
 interface LinkedinIconProps {
   size?: number;

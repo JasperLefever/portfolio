@@ -1,4 +1,4 @@
-import github from "../../assets/github-mark-white.svg";
+import github from "../../assets/socials/github-mark-white.svg";
 
 interface GithubIconProps {
   size?: number;
