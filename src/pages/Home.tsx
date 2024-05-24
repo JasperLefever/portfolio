@@ -54,11 +54,11 @@ function Home() {
   return (
     <div className="flex flex-col gap-5 m-auto max-w-4xl">
       {/* Image */}
-      <div className="grid grid-cols-2">
-        <div className="flex flex-col justify-center align-middle gap-2">
+      <div className="grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-2">
+        <div className="flex flex-col justify-center items-center md:items-start gap-2">
           <h1 className="text-lg font-bold">Hya, I'm Jasper</h1>
           <p className="text-5xl font-extrabold accent-color">Full stack</p>
-          <p className="text-5xl font-extrabold accent-color ">Developer</p>
+          <p className="text-5xl font-extrabold accent-color">Developer</p>
           <a
             className="underline underline-offset-4 font-bold text-sm"
             href="#connect-with-me"
@@ -66,11 +66,11 @@ function Home() {
             Connect with me
           </a>
         </div>
-        <div className="flex justify-center align-middle">
+        <div className="flex justify-center md:justify-end items-center ">
           <img
             src="https://avatars.githubusercontent.com/u/33233024?v=4"
             alt="Jasper Lefever"
-            className="w-48 rounded-full"
+            className="w-52 rounded-md"
           />
         </div>
       </div>
