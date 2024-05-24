@@ -30,9 +30,13 @@ function Home() {
         <SectionText text={"Hello, I'm Jasper"}></SectionText>
       </Section>
       <Section title={"languages"}>
-        <SectionText text={"Hello, I'm Jasper"}></SectionText>
+        <ul className={"text-lg"}>
+          <li>🇧🇪 Dutch: native</li>
+          <li>🇬🇧 English: conversational</li>
+          <li>🇫🇷 French: basics</li>
+        </ul>
       </Section>
-      <Section title={"projects"}>
+      <Section title={"projects and realizations"}>
         <SectionText text={"Hello, I'm Jasper"}></SectionText>
       </Section>
       <Section title={"connect with me"}>
