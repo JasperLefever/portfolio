@@ -1,8 +1,11 @@
 import { GithubIcon } from "../../socials/GithubIcon.tsx";
 
-function Footer() {
+function Footer({ ...props }) {
   return (
-    <footer className="flex flex-row justify-between px-4 py-3 border-b items-center">
+    <footer
+      className="flex flex-row justify-between px-4 py-3 border-b items-center"
+      {...props}
+    >
       <div className="flex gap-2">
         <p className="font-bold">Jasper</p>
         <p>Lefever</p>
