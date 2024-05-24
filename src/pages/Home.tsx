@@ -128,6 +128,13 @@ function Home() {
           <ConnectWithMe />
         </Section>
       </a>
+      <Section title={"tank you"}>
+        <SectionText
+          text={
+            "Thank you for visiting my portfolio. I look forward to connecting with you! 🚀. "
+          }
+        ></SectionText>
+      </Section>
     </div>
   );
 }

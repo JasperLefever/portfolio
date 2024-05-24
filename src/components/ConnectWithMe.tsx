@@ -7,8 +7,9 @@ function ConnectWithMe({}: ConnectWithMeProps) {
   return (
     <div>
       <p className={"text-lg"}>
-        Feel free to connect with me on the following platforms so we can share
-        ideas and collaborate!
+        I'm always open to discussing new projects, collaborations, or
+        opportunities to contribute to exciting ventures. Feel free to reach out
+        to me via the following platforms:
       </p>
       <div className="py-2 flex flex-row gap-4">
         <GithubIcon size={60} />
