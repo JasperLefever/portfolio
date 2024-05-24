@@ -24,6 +24,8 @@ import tailwind from "../assets/skills/tailwind.svg";
 import typescript from "../assets/skills/typescript.svg";
 import ubuntu from "../assets/skills/ubuntu-.svg";
 import vitejs from "../assets/skills/vitejs.svg";
+import projects from "../projects.ts";
+import ProjectCard from "../components/home/ProjectCard.tsx";
 
 function Home() {
   const skillsLogos = [
@@ -114,7 +116,12 @@ function Home() {
         </ul>
       </Section>
       <Section title={"projects and realizations"}>
-        <SectionText text={"Hello, I'm Jasper"}></SectionText>
+        {/* Projects */}
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          {projects.map((project, index) => (
+            <ProjectCard key={index} {...project} />
+          ))}
+        </div>
       </Section>
       <a id={"connect-with-me"}>
         <Section title={"connect with me"}>
