@@ -38,6 +38,58 @@ const projects: Project[] = [
     link: "https://github.com/JasperLefever/OpdrachtEWDJ_Bibliotheek",
     tags: ["Java", "Spring Boot", "Thymeleaf", "MySQL"],
   },
+  {
+    title: "Zatre",
+    description:
+      "A first java project where we had to make the Zatre board game in JavaFX",
+    tags: ["Java", "JavaFX", "MySQL"],
+  },
+  {
+    title: "SVK delivery control information system",
+    description:
+      "A school project(group) where we had to make a system that could store images of a specific order. That later could be used to check if damage was done during transport and who was responsible for it. This included an android app to take pictures, a web app for data retrieval and a shared backend",
+    link: "",
+    tags: [
+      ".NET",
+      "C#",
+      "Blazor",
+      "Android",
+      "Kotlin",
+      "MsSQL",
+      "Android compose",
+    ],
+  },
+  {
+    title: "Delaware B2B webshop",
+    description:
+      "A school project where we had to make a B2B webshop for delaware. It included a react frontend and a node.js backend with a JavaFX spring boot admin panel",
+    link: "",
+    tags: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "TypeScript",
+      "Koa",
+      "Zod",
+      "MySql",
+      "JavaFX",
+      "Spring Boot",
+    ],
+  },
+  {
+    title: "Backend: Video sharing platform like YouTube",
+    description:
+      "A school project where i made a lite version of YouTube where people can like, comment and upload videos",
+    link: "",
+    tags: ["Node.js", "Koajs", "MySQL", "Prisma", "Joi validation"],
+  },
+  {
+    title: "Frontend: Video sharing platform like YouTube",
+    description:
+      "A school project where i made a lite version of YouTube where people can like, comment and upload videos",
+    link: "",
+    tags: ["React", "JavaScript", "Bootstrap"],
+  },
 ];
 
 export default projects;
