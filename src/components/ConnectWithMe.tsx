@@ -1,15 +1,17 @@
-import { GithubIcon } from "./socials/GithubIcon.tsx";
-import { LinkedinIcon } from "./socials/LinkedinIcon.tsx";
+import GithubIcon from "./socials/GithubIcon.tsx";
+import LinkedinIcon from "./socials/LinkedinIcon.tsx";
 
 interface ConnectWithMeProps {}
 
 function ConnectWithMe({}: ConnectWithMeProps) {
   return (
     <div>
-      <p>Feel free to connect with me on the following platforms</p>
+      <p className={"text-lg"}>
+        Feel free to connect with me on the following platforms
+      </p>
       <div className="py-2 flex flex-row gap-4">
-        <GithubIcon />
-        <LinkedinIcon />
+        <GithubIcon size={60} />
+        <LinkedinIcon size={60} />
       </div>
     </div>
   );

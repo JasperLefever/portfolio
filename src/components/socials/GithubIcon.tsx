@@ -1,9 +1,20 @@
 import github from "../../assets/github-mark-white.svg";
 
-export function GithubIcon() {
+interface GithubIconProps {
+  size?: number;
+}
+
+function GithubIcon({ size = 40 }: GithubIconProps) {
   return (
-    <a href="https://github.com/JasperLefever">
-      <img src={github} alt="GitHub" className="w-10" />
+    <a href="https://github.com/JasperLefever" className="inline-block">
+      <img
+        src={github}
+        alt="GitHub"
+        className="h-auto"
+        style={{ width: `${size}px` }}
+      />
     </a>
   );
 }
+
+export default GithubIcon;

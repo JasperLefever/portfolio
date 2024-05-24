@@ -1,5 +1,5 @@
 import NavLink from "./NavLink.tsx";
-import { GithubIcon } from "../../socials/GithubIcon.tsx";
+import GithubIcon from "../../socials/GithubIcon.tsx";
 import cv from "../../../assets/CV Jasper Lefever.pdf";
 
 function Navbar() {
