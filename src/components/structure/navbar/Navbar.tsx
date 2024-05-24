@@ -11,7 +11,9 @@ function Navbar() {
       </div>
       <div className="flex flex-row gap-3">
         <NavLink to={"./"}>Home</NavLink>
-        <a href={cv}>Curriculum Vitae</a>
+        <a href={cv} target={"_blank"}>
+          Curriculum Vitae
+        </a>
       </div>
       <div>
         <GithubIcon />
