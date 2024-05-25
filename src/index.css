@@ -11,8 +11,17 @@
 }
 
 body {
-    background-color: #221F1F;
+    background: hsla(0, 5%, 13%, 1);
+
+    background: linear-gradient(360deg, hsla(0, 5%, 13%, 1) 0%, hsla(225, 67%, 57%, 1) 74%, hsla(192, 96%, 50%, 1) 100%);
+
+    background: -moz-linear-gradient(360deg, hsla(0, 5%, 13%, 1) 0%, hsla(225, 67%, 57%, 1) 74%, hsla(192, 96%, 50%, 1) 100%);
+
+    background: -webkit-linear-gradient(360deg, hsla(0, 5%, 13%, 1) 0%, hsla(225, 67%, 57%, 1) 74%, hsla(192, 96%, 50%, 1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#221F1F", endColorstr="#496DDB", GradientType=1);
 }
+
 
 .accent-color {
     color: #496ddb;

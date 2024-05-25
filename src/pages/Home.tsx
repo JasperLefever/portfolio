@@ -26,6 +26,7 @@ import ubuntu from "../assets/skills/ubuntu-.svg";
 import vitejs from "../assets/skills/vitejs.svg";
 import projects from "../projects.ts";
 import ProjectCard from "../components/home/ProjectCard.tsx";
+import pf from "../assets/pf.jpeg";
 
 function Home() {
   const skillsLogos = [
@@ -69,11 +70,7 @@ function Home() {
           </a>
         </div>
         <div className="flex justify-center md:justify-end items-center ">
-          <img
-            src="https://avatars.githubusercontent.com/u/33233024?v=4"
-            alt="Jasper Lefever"
-            className="w-52 rounded-md"
-          />
+          <img src={pf} alt="Jasper Lefever" className="w-52 rounded-md" />
         </div>
       </div>
       <Section title={"about"}>
