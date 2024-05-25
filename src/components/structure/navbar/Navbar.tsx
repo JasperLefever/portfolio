@@ -15,7 +15,7 @@ function Navbar() {
           Curriculum Vitae
         </a>
       </div>
-      <div>
+      <div className="hidden md:block">
         <GithubIcon />
       </div>
     </nav>
