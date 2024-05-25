@@ -10,6 +10,10 @@
     color: white;
 }
 
+nav {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
 body {
     background: hsla(0, 5%, 13%, 1);
 
