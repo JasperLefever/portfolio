@@ -3,7 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/*https://coolors.co/gradient-maker/221f1f-496ddb-05c9f9?position=0,74,100&opacity=100,100,100&type=linear&rotation=360*/
 * {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;

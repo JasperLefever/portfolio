@@ -27,6 +27,7 @@ import vitejs from "../assets/skills/vitejs.svg";
 import projects from "../projects.ts";
 import ProjectCard from "../components/home/ProjectCard.tsx";
 import pf from "../assets/pf.jpeg";
+import about from "../about.json";
 
 function Home() {
   const skillsLogos = [
@@ -74,7 +75,11 @@ function Home() {
         </div>
       </div>
       <Section title={"about"}>
-        <SectionText text={"Hello, I'm Jasper"}></SectionText>
+        <SectionText text={about.general}></SectionText>
+        <br />
+        <SectionText text={about.philosophy}></SectionText>
+        <br />
+        <SectionText text={about["personal-interests"]}></SectionText>
       </Section>
       <Section title={"skills"}>
         <SectionText
