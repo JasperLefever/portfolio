@@ -1,4 +1,4 @@
-interface Degree {
+export interface Degree {
   title: string;
   school: string;
   description: string;

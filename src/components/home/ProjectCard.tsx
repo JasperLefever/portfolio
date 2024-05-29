@@ -16,10 +16,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   tags,
 }) => {
   return (
-    <div className="bg-gray-800 text-white shadow-lg rounded-lg overflow-hidden max-w-sm">
+    <div className="bg-white text-gray-800 shadow-lg rounded-lg overflow-hidden md:max-w-md place-self-center w-full h-full">
       <div className="p-4">
-        <h2 className="text-xl font-bold mb-2">{title}</h2>
-        <p className="text-gray-300 mb-4">{description}</p>
+        <h2 className="text-xl font-bold mb-2 accent-color">{title}</h2>
+        <p className="text-gray-700 mb-4">{description}</p>
         {link && (
           <a
             href={link}
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="bg-accent-color text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded"
+              className="bg-blue-600 text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded"
             >
               {tag}
             </span>

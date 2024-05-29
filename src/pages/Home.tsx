@@ -28,6 +28,8 @@ import projects from "../projects.ts";
 import ProjectCard from "../components/home/ProjectCard.tsx";
 import pf from "../assets/pf.jpeg";
 import about from "../about.json";
+import { degrees } from "../degrees.ts";
+import DegreeCard from "../components/home/DegreeCard.tsx";
 
 function Home() {
   const skillsLogos = [
@@ -117,9 +119,16 @@ function Home() {
           <li>🇫🇷 French: basics</li>
         </ul>
       </Section>
+      <Section title={"education"}>
+        <div className="flex flex-col gap-4 w-full items-center mt-2">
+          {degrees.map((degree, index) => (
+            <DegreeCard key={index} degree={degree} />
+          ))}
+        </div>
+      </Section>
       <Section title={"projects and realizations"}>
         {/* Projects */}
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 mt-2">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
