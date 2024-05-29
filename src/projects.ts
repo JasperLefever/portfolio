@@ -48,7 +48,6 @@ const projects: Project[] = [
     title: "SVK delivery control information system",
     description:
       "A school project(group) where we had to make a system that could store images of a specific order. That later could be used to check if damage was done during transport and who was responsible for it. This included an android app to take pictures, a web app for data retrieval and a shared backend",
-    link: "",
     tags: [
       ".NET",
       "C#",
@@ -63,7 +62,6 @@ const projects: Project[] = [
     title: "Delaware B2B webshop",
     description:
       "A school project where we had to make a B2B webshop for delaware. It included a react frontend and a node.js backend with a JavaFX spring boot admin panel",
-    link: "",
     tags: [
       "React",
       "JavaScript",
@@ -80,15 +78,19 @@ const projects: Project[] = [
     title: "Backend: Video sharing platform like YouTube",
     description:
       "A school project where i made a lite version of YouTube where people can like, comment and upload videos",
-    link: "",
     tags: ["Node.js", "Koajs", "MySQL", "Prisma", "Joi validation"],
   },
   {
     title: "Frontend: Video sharing platform like YouTube",
     description:
       "A school project where i made a lite version of YouTube where people can like, comment and upload videos",
-    link: "",
     tags: ["React", "JavaScript", "Bootstrap"],
+  },
+  {
+    title: "Bachelor thesis: A study on AI frontend slicing tools (Dutch)",
+    description:
+      "A study on AI frontend slicing tools and how they can be used to improve the frontend development process.",
+    tags: ["React", "Typescript", "TailwindCSS", "Builder.io", "GPT4V", "AI"],
   },
 ];
 
