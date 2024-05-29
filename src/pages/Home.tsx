@@ -30,6 +30,8 @@ import pf from "../assets/pf.jpeg";
 import about from "../about.json";
 import { degrees } from "../degrees.ts";
 import DegreeCard from "../components/home/DegreeCard.tsx";
+import { workExperiences } from "../workExperience.ts";
+import WorkExperienceCard from "../components/home/WorkExperienceCard.tsx";
 
 function Home() {
   const skillsLogos = [
@@ -123,6 +125,13 @@ function Home() {
         <div className="flex flex-col gap-4 w-full items-center mt-2">
           {degrees.map((degree, index) => (
             <DegreeCard key={index} degree={degree} />
+          ))}
+        </div>
+      </Section>
+      <Section title={"work experience"}>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 mt-2">
+          {workExperiences.map((experience, index) => (
+            <WorkExperienceCard key={index} experience={experience} />
           ))}
         </div>
       </Section>
