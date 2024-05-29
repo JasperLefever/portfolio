@@ -6,7 +6,7 @@ interface WorkExperienceProps {
 }
 
 const WorkExperienceCard: React.FC<WorkExperienceProps> = ({ experience }) => (
-  <div className="bg-white text-gray-800 shadow-lg rounded-lg overflow-hidden max-w-sm">
+  <div className="bg-white text-gray-800 shadow-lg rounded-lg overflow-hidden md:max-w-md w-full h-full place-self-center">
     <div className="p-4">
       <h2 className="text-xl font-bold mb-2 accent-color">
         {experience.title}
