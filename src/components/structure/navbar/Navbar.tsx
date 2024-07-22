@@ -1,6 +1,5 @@
 import NavLink from "./NavLink.tsx";
 import GithubIcon from "../../socials/GithubIcon.tsx";
-import cv from "../../../assets/CV Jasper Lefever.pdf";
 
 function Navbar() {
   return (
@@ -11,9 +10,11 @@ function Navbar() {
       </div>
       <div className="flex flex-row gap-3">
         <NavLink to={"./"}>Home</NavLink>
-        <a href={cv} target={"_blank"}>
-          Curriculum Vitae
-        </a>
+        {/*
+          <a href={cv} target={"_blank"}>
+            Curriculum Vitae
+          </a>
+       */}
       </div>
       <div className="hidden md:block">
         <GithubIcon />
