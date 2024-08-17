@@ -10,12 +10,30 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
+    title: "Student job Proxy Delhaize",
+    company: "Delhaize",
+    description:
+      "Student job cashier and shelf filler @ Proxy Delhaize Oostduinkerke",
+    type: "Student job",
+    startDate: { month: "August", year: 2024 },
+    endDate: { month: "August", year: 2024 },
+  },
+  {
+    title: "Bartender",
+    company: "The Possé",
+    description: "Student job bartender @ The Possé",
+    type: "Student job",
+    startDate: { month: "August", year: 2024 },
+    endDate: { month: "August", year: 2024 },
+  },
+  {
     title: "Student job events",
     company: "Citymesh",
     description:
       "Setup temporary LTE and WIFI networks on festivals, events, ... @ Citymesh Flex",
     type: "Student job",
     startDate: { month: "June", year: 2024 },
+    endDate: { month: "July", year: 2024 },
   },
   {
     title: "Internship research",
@@ -35,9 +53,9 @@ export const workExperiences: WorkExperience[] = [
     endDate: { month: "December", year: 2023 },
   },
   {
-    title: "Student job Proxy Delhaize Oostduinkerke",
+    title: "Student job Proxy Delhaize",
     company: "Delhaize",
-    description: "Cashier",
+    description: "Cashier @ Proxy Delhaize Oostduinkerke",
     type: "Student job",
     startDate: { month: "August", year: 2023 },
     endDate: { month: "August", year: 2023 },
@@ -46,7 +64,7 @@ export const workExperiences: WorkExperience[] = [
     title: "Student job events",
     company: "Citymesh",
     description:
-      "Setup temporary LTE and WIFI networks on festivals, events, ... @ Citymesh Flex",
+      "IT Helpdesk for camping wifi dishes and setup temporary LTE and WIFI networks on festivals, events, ...",
     type: "Student job",
     startDate: { month: "June", year: 2023 },
     endDate: { month: "July", year: 2023 },
