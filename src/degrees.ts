@@ -8,13 +8,6 @@ export interface Degree {
 
 export const degrees: Degree[] = [
   {
-    title: "Master of Science in industrial sciences: computer science",
-    school: "Ghent University",
-    description: "Computer science specialization",
-    startDate: { month: "September", year: 2024 },
-    endDate: { month: "June", year: 2027 },
-  },
-  {
     title:
       "Bachelor of Applied Science - BASc, Computer and Information Sciences and Support Services",
     school: "HoGent",
