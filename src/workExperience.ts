@@ -10,6 +10,14 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
+    title: "Solutions Expert",
+    company: "Citymesh",
+    description:
+        "Solutions Expert @ Citymesh Critical Solutions",
+    type: "Part-time (3/5)",
+    startDate: { month: "November", year: 2024 },
+  },
+  {
     title: "Student job Proxy Delhaize",
     company: "Delhaize",
     description:
