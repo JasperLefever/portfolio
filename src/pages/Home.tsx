@@ -151,7 +151,7 @@ function Home() {
       <Section title={"thank you"}>
         <SectionText
           text={
-            "Thank you for visiting my portfolio. I look forward to connecting with you! 🚀. "
+            "Thank you for visiting my portfolio. I look forward to connect with you! 🚀. "
           }
         ></SectionText>
       </Section>
