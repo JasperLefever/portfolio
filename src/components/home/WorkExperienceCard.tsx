@@ -1,6 +1,5 @@
 import { WorkExperience } from "../../workExperience.ts";
 import React from "react";
-import exp = require("node:constants");
 
 interface WorkExperienceProps {
   experience: WorkExperience;
