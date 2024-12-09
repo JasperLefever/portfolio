@@ -26,7 +26,7 @@ import ubuntu from "../assets/skills/ubuntu-.svg";
 import vitejs from "../assets/skills/vitejs.svg";
 import projects from "../projects.ts";
 import ProjectCard from "../components/home/ProjectCard.tsx";
-import pf from "../assets/pf.jpeg";
+import pf from "../assets/pf.jpg";
 import about from "../about.json";
 import { degrees } from "../degrees.ts";
 import DegreeCard from "../components/home/DegreeCard.tsx";
