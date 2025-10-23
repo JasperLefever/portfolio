@@ -10,12 +10,21 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
+    title: "Software Engineer",
+    company: "KBC Global Services",
+    description:
+        "Software Engineer @ KBC Global Services",
+    type: "Full-time",
+    startDate: { month: "October", year: 2025 },
+  },
+  {
     title: "Solutions Expert",
     company: "Citymesh",
     description:
         "Solutions Expert @ Citymesh Critical Solutions",
-    type: "Part-time (3/5)",
+    type: "Part-time (3/5) / Full-time (5/5) from August 2025",
     startDate: { month: "November", year: 2024 },
+    endDate: { month: "October", year: 2025 },
   },
   {
     title: "Student job Proxy Delhaize",
