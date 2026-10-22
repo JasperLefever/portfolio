@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 /*https://coolors.co/gradient-maker/221f1f-496ddb-05c9f9?position=0,74,100&opacity=100,100,100&type=linear&rotation=360*/
 * {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    color: white;
 }
 
 nav {
@@ -15,6 +12,7 @@ nav {
 }
 
 body {
+    color: white;
     background: hsla(0, 5%, 13%, 1);
 
     background: linear-gradient(360deg, hsla(0, 5%, 13%, 1) 0%, hsla(225, 67%, 57%, 1) 74%, hsla(192, 96%, 50%, 1) 100%);

@@ -1,9 +1,7 @@
 import GithubIcon from "./socials/GithubIcon.tsx";
 import LinkedinIcon from "./socials/LinkedinIcon.tsx";
 
-interface ConnectWithMeProps {}
-
-function ConnectWithMe({}: ConnectWithMeProps) {
+function ConnectWithMe() {
   return (
     <div>
       <p className={"text-lg"}>
